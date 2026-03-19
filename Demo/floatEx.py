@@ -1,0 +1,9 @@
+x=1.10
+y=1.0
+z=-35.59
+
+Full_marks=100
+print(type(Full_marks)) #Data Type of Full_marks is int
+Full_marks=float(Full_marks) # Type casting Full_marks to float
+print(type(Full_marks)) #Data Type of Full_marks is now float
+print(Full_marks)
