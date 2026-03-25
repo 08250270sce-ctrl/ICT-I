@@ -1,0 +1,2 @@
+print("We are in unit {}".format(2))# Output: We are in unit 2
+print("{p}is a programming language".format(p="Python"))# Output: Python is a programming language with the help of pythone we can create various 
