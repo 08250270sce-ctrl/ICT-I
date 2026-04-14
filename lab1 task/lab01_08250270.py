@@ -18,11 +18,10 @@ student_age.add(23)
 student_grade.add('A')
 student_grade.add('B')
 
-students_dict["Karma Sangay Namgyel"] = {"age": 21, "grade": "A"}# Adding student details to the dictionary with name as key and age and grade as values
-students_dict["Arjun Bhattarai"] = {"age": 20, "grade": "B"}# Adding student details to the dictionary with name as key and age and grade as values
-students_dict["Pralad Adhikari"] = {"age": 22, "grade": "A"}# Adding student details to the dictionary with name as key and age and grade as values
-students_dict["Sangay Dorji"] = {"age": 23, "grade": "B"}# Adding student details to the dictionary with name as key and age and grade as values
-
+students_dict["Karma Sangay Namgyel"] = {"age": 21, "grade": "A"}#Adding the student detials like name as key, age and grade as values to dictionary.
+students_dict["Arjun Bhattarai"] = {"age": 20, "grade": "B"}
+students_dict["Pralad Adhikari"] = {"age": 22, "grade": "A"}
+students_dict["Sangay Dorji"] = {"age": 23, "grade": "B"}
 # Add student
 add_student = input("Enter student name to add (or press Enter to skip): ")# Prompt the user to enter a student name to add, or press Enter to skip adding a student
 
@@ -46,9 +45,10 @@ print()# Print a newline for better readability
 search_name = input("Enter student name to search: ")# Prompt the user to enter a student name to search for in the students_dict
 
 if search_name in students_dict:
-    print(f"Found: {search_name}, Age: {students_dict[search_name]['age']}, Grade: {students_dict[search_name]['grade']}")# If the student name is found in the students_dict, print the student's name, age, and grade using the dictionary values
+    print(f"Found: {search_name}, Age: {students_dict[search_name]['age']}, Grade: {students_dict[search_name]['grade']}")#if the student is found than it will print the students detials.
 else:
-    print("Student not found")# If the student name is not found in the students_dict, print a message indicating that the student was not found
+    print("Student not found")#If the student is not found than it will print that the student wass not fouund.
+
 
 print()
 
