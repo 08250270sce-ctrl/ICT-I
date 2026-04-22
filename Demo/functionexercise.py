@@ -1,20 +1,22 @@
+print()
+def calculate_total(x,y,z):
+    return x+y+z
 
-def calculate_total(m1,m2,m3):
-    m1=int(input("enter the  marks of the subject 1:"))
-    m2=int(input("enter the  marks of the subject 2:"))
-    m3=int(input("enter the  marks of the subject 3:"))
-
-def calculate_total(m1,m2,m3):
-    return m1,m2,m3
 def calculate_average(total):
     return total/3
 
-def get_result(average):
-    if average>=50:
-        return "Pass"
-    else:
-        return "Fail"
+x = float(input("Enter marks for subject 1: "))
+y = float(input("Enter marks for subject 2: "))
+z = float(input("Enter marks for subject 3: "))
+
+total = calculate_total(x, y, z)
+average = calculate_average(total)
+
+print("Total Marks:", total)
+print("Average:", average)
+if average>=50:
+    print("Result: Pass")
+else:
+    print("Result: Fail")
 print()
-
-
     
